@@ -14,3 +14,14 @@
       background-color: green;
     }
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disconnectButton {
+    background-color: red;
+    color: white;
+  }
