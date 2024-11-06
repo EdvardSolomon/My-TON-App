@@ -1,0 +1,6 @@
+{
+  "name": "My TON App",
+  "description": "Example application for connecting to TON wallet.",
+  "url": "https://your-app-url.com",
+  "iconUrl": "https://my-ton-app.vercel.app/vite.svg"
+}
