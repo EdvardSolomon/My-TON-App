@@ -7,7 +7,7 @@ import SecondPage from "./pages/SecondPage";
 
 function App() {
   return (
-    <TonConnectUIProvider manifestUrl='https://my-ton-app.vercel.app/tonconnect-manifest.json'>
+    <TonConnectUIProvider manifestUrl='https://edvardsolomon.github.io/My-TON-App/tonconnect-manifest.json'>
       <Router>
         <Routes>
           <Route
