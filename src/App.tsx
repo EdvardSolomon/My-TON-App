@@ -4,8 +4,14 @@ import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
 import FirstPage from "./pages/FirstPage";
 import SecondPage from "./pages/SecondPage";
+import { useEffect } from "react";
+import WebApp from "@twa-dev/sdk";
 
 function App() {
+  useEffect(() => {
+    WebApp.ready();
+  });
+
   return (
     <TonConnectUIProvider manifestUrl='https://edvardsolomon.github.io/My-TON-App/tonconnect-manifest.json'>
       <Router>
